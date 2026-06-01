@@ -117,7 +117,7 @@
 
               <p>
                 Comme vous pouvez le voir dans
-                <a href="#preuve1">la preuve 1</a>, nous avons préparé une
+                <a href="#preuve1.1">la preuve 1</a>, nous avons préparé une
                 présentation complète avant de passer notre oral devant la
                 classe.
               </p>
@@ -137,7 +137,7 @@
 
               <p>
                 Comme vous pouvez le voir dans
-                <a href="#preuve2">la preuve 2</a>, cette formation abordait
+                <a href="#preuve1.2">la preuve 2</a>, cette formation abordait
                 plusieurs thèmes liés à la sécurité informatique et aux bonnes
                 pratiques numériques.
               </p>
@@ -250,11 +250,8 @@
             <div class="project-gallery">
               <!-- PREUVE 1 -->
 
-              <div class="proof-item" id="preuve1">
-                <img
-                  src="/images/telnet-ssh.png"
-                  alt="Présentation Telnet et SSH"
-                />
+              <div class="proof-item" id="preuve1.1">
+                <img src="/images/11.1.webp" alt="Présentation Telnet et SSH" />
 
                 <p class="proof-text">
                   Preuve 1 — Diaporama réalisé en groupe pour présenter les
@@ -264,8 +261,8 @@
 
               <!-- PREUVE 2 -->
 
-              <div class="proof-item" id="preuve2">
-                <img src="/images/mooc-anssi.png" alt="Formation MOOC ANSSI" />
+              <div class="proof-item" id="preuve1.2">
+                <img src="/images/11.webp" alt="Formation MOOC ANSSI" />
 
                 <p class="proof-text">
                   Preuve 2 — Formation de sensibilisation à l’hygiène
@@ -289,7 +286,7 @@
           </div>
 
           <div class="project-content">
-            <!-- PRÉSENTATION -->
+            <!-- PRESENTATION -->
 
             <div class="project-info">
               <h3>📚 Présentation de la SAE12</h3>
@@ -318,21 +315,30 @@
 
               <p>
                 Comme vous pouvez le voir dans
-                <a href="#preuve4">la preuve 4</a>, nous disposions d’un schéma
-                physique complet représentant l’architecture réseau du projet à
-                réaliser.
+                <a href="#preuve2.1">la preuve 1</a>, nous disposions d’un
+                schéma physique complet représentant l’infrastructure réseau du
+                projet.
+              </p>
+
+              <p>
+                Comme vous pouvez le voir dans
+                <a href="#preuve2.2">la preuve 2</a>, nous avons également
+                réalisé un schéma logique permettant de visualiser les VLANs,
+                les équipements et les communications du réseau.
               </p>
             </div>
 
-            <!-- DÉMARCHES RÉALISÉES -->
+            <!-- DEMARCHES REALISEES -->
 
             <div class="project-info">
               <h3>🛠️ Démarches réalisées</h3>
 
+              <p>Ce projet a été réalisé en groupe de quatre étudiants.</p>
+
               <p>
-                Dans ce projet réalisé en groupe de quatre étudiants, mon rôle
-                principal concernait la configuration des switchs de niveau 2
-                (L2).
+                Mon rôle principal concernait la configuration des switchs de
+                niveau 2 (L2), c’est-à-dire des switchs réalisant uniquement du
+                switching sans routage inter-VLAN.
               </p>
 
               <p>
@@ -348,91 +354,82 @@
               </p>
 
               <p>
-                Nous avons également travaillé sur le routage inter-VLAN afin de
+                Nous avons ensuite travaillé sur le routage inter-VLAN afin de
                 permettre la communication entre les différents réseaux de
                 l’entreprise.
               </p>
 
               <p>
                 Une autre partie importante du projet concernait
-                l’administration sous Linux Debian et la virtualisation avec
-                Proxmox.
+                l’administration Linux Debian et la virtualisation avec Proxmox.
               </p>
 
               <p>
-                Nous avons configuré plusieurs services réseau ainsi qu’un
-                serveur FTP permettant de sauvegarder les fichiers de
-                configuration des switchs.
+                Nous avons configuré plusieurs services réseau comme Apache2,
+                Bind9, Samba et un serveur FTP permettant de sauvegarder les
+                fichiers de configuration des équipements réseau.
               </p>
 
               <p>
                 Comme vous pouvez le voir dans
-                <a href="#preuve4">la preuve 4</a>, nous avons suivi un schéma
-                physique précis représentant l’infrastructure réseau complète de
-                l’entreprise.
+                <a href="#preuve2.3">la preuve 3</a>, plusieurs configurations
+                ont été réalisées sur les équipements Cisco et les serveurs
+                Linux durant le projet.
               </p>
             </div>
 
-            <!-- DIFFICULTÉS -->
+            <!-- DIFFICULTES -->
 
             <div class="project-info">
               <h3>⚠️ Difficultés rencontrées</h3>
 
-              <p>Le premier problème concernait la configuration des VLANs.</p>
+              <p>
+                Le premier problème rencontré concernait la configuration des
+                VLANs.
+              </p>
 
               <p>
-                Nous avions oublié de créer un VLAN correspondant à une partie
-                de l’entreprise, ce qui empêchait certains équipements de
-                communiquer correctement sur le réseau.
+                Lors de la réalisation du projet, nous avions oublié de créer un
+                VLAN correspondant à un service de l’entreprise. Cette erreur
+                empêchait certains équipements de communiquer correctement avec
+                le reste du réseau.
               </p>
 
               <p>
                 Comme vous pouvez le voir dans
-                <a href="#preuve1">la preuve 1</a>, il manquait une partie de la
-                configuration VLAN dans notre infrastructure.
+                <a href="#preuve2.4">la preuve 4</a>, une partie de la
+                configuration VLAN était manquante dans notre infrastructure.
               </p>
 
               <p>
-                Le deuxième problème concernait le serveur Proxmox et la
-                configuration du NAT.
+                Le deuxième problème concernait la configuration du NAT sur le
+                serveur Proxmox.
               </p>
 
               <p>
-                Nous manquions de connaissances concernant la traduction
-                d’adresses IP permettant aux machines virtuelles d’accéder à
-                Internet depuis le réseau interne de l’entreprise.
-              </p>
-
-              <p>
-                Comme vous pouvez le voir dans
-                <a href="#preuve2">la preuve 2</a>, la configuration du NAT et
-                des services réseau sous Linux Debian était une partie complexe
-                du projet.
+                Nous ne maîtrisions pas encore suffisamment le fonctionnement de
+                la traduction d’adresses IP et nous ne parvenions pas à
+                permettre aux machines virtuelles d’accéder à Internet depuis le
+                réseau interne.
               </p>
 
               <p>Le troisième problème concernait le routage inter-VLAN.</p>
 
               <p>
-                Certaines erreurs dans la configuration empêchaient les VLANs de
-                communiquer correctement entre eux.
-              </p>
-
-              <p>
-                Comme vous pouvez le voir dans
-                <a href="#preuve3">la preuve 3</a>, plusieurs erreurs de
-                configuration réseau empêchaient le bon fonctionnement du
-                routage inter-VLAN.
+                Certaines erreurs dans la configuration des interfaces et des
+                routes empêchaient les différents VLANs de communiquer
+                correctement entre eux.
               </p>
             </div>
 
-            <!-- RÉSOLUTION -->
+            <!-- RESOLUTION -->
 
             <div class="project-info">
               <h3>🔧 Démarches de résolution</h3>
 
               <p>
-                Pour résoudre le problème des VLANs, nous avons analysé notre
-                architecture réseau puis ajouté le VLAN manquant afin de
+                Pour résoudre le problème des VLANs, nous avons analysé
+                l’architecture réseau puis ajouté le VLAN manquant afin de
                 corriger la communication entre les différents services de
                 l’entreprise.
               </p>
@@ -445,7 +442,7 @@
               </p>
 
               <p>
-                Après plusieurs tests et modifications des configurations
+                Après plusieurs essais et modifications des configurations
                 réseau, nous avons réussi à permettre aux machines virtuelles
                 d’accéder à Internet.
               </p>
@@ -459,7 +456,7 @@
 
               <p>
                 Grâce à cette démarche progressive, nous avons réussi à rendre
-                l’infrastructure réseau fonctionnelle et plus stable.
+                l’infrastructure réseau fonctionnelle et stable.
               </p>
             </div>
 
@@ -533,6 +530,20 @@
                       inter-VLAN.
                     </p>
                   </li>
+
+                  <li>
+                    <strong>
+                      AC11.06 — Installer un poste client et expliquer la
+                      procédure mise en place
+                    </strong>
+
+                    <p>
+                      Cette SAE m’a permis de comprendre l’intégration des
+                      équipements dans une infrastructure réseau ainsi que les
+                      différentes étapes nécessaires à leur déploiement et leur
+                      mise en service.
+                    </p>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -544,61 +555,46 @@
 
               <p>
                 Les captures ci-dessous présentent différentes étapes du projet,
-                les configurations réalisées ainsi que les problèmes rencontrés
-                durant la SAE12.
+                les schémas utilisés ainsi que certaines configurations
+                réalisées durant la SAE12.
               </p>
             </div>
 
             <div class="project-gallery">
-              <!-- PREUVE 1 -->
-
-              <div class="proof-item" id="preuve1">
-                <img
-                  src="/images/intervlan-problem.png"
-                  alt="Problème routage inter VLAN"
-                />
+              <div class="proof-item" id="preuve2.1">
+                <img src="/images/schema-physique.png" alt="Schéma physique" />
 
                 <p class="proof-text">
-                  Preuve 1 — Problèmes rencontrés durant la configuration du
-                  routage inter-VLAN.
+                  Preuve 1 — Schéma physique de l’infrastructure réseau.
                 </p>
               </div>
 
-              <!-- PREUVE 2 -->
-
-              <div class="proof-item" id="preuve2">
-                <img
-                  src="/images/proxmox-linux.png"
-                  alt="Configuration Proxmox Linux"
-                />
+              <div class="proof-item" id="preuve2.2">
+                <img src="/images/schema-logique.png" alt="Schéma logique" />
 
                 <p class="proof-text">
-                  Preuve 2 — Configuration des services réseau sous Proxmox et
-                  Linux Debian.
+                  Preuve 2 — Schéma logique représentant les VLANs et les
+                  communications réseau.
                 </p>
               </div>
 
-              <!-- PREUVE 3 -->
-
-              <div class="proof-item" id="preuve3">
-                <img src="/images/vlan-problem.png" alt="Erreur VLAN" />
-
-                <p class="proof-text">
-                  Preuve 3 — Erreurs de configuration VLAN durant le projet.
-                </p>
-              </div>
-
-              <!-- PREUVE 4 -->
-
-              <div class="proof-item" id="preuve4">
+              <div class="proof-item" id="preuve2.3">
                 <img
-                  src="/images/schema-physique.png"
-                  alt="Schéma physique réseau"
+                  src="/images/configuration-reseau.png"
+                  alt="Configuration réseau"
                 />
 
                 <p class="proof-text">
-                  Preuve 4 — Schéma physique de l’infrastructure réseau fourni
-                  pour le projet Fibre&Company.
+                  Preuve 3 — Exemple de configuration réalisée durant le projet.
+                </p>
+              </div>
+
+              <div class="proof-item" id="preuve2.4">
+                <img src="/images/vlan-manquant.png" alt="VLAN manquant" />
+
+                <p class="proof-text">
+                  Preuve 4 — VLAN oublié durant le projet, provoquant un
+                  problème de communication réseau.
                 </p>
               </div>
             </div>
@@ -618,6 +614,8 @@
           </div>
 
           <div class="project-content">
+            <!-- PRESENTATION -->
+
             <div class="project-info">
               <h3>📚 Présentation de la SAE13</h3>
 
@@ -630,148 +628,223 @@
               </p>
 
               <p>
-                Durant cette SAE, nous avons réalisé plusieurs manipulations
-                permettant de comprendre le fonctionnement des transmissions
-                réseau et les méthodes utilisées pour mesurer certaines
-                caractéristiques physiques des câbles.
+                Cette SAE a été réalisée en groupe de trois étudiants et nous a
+                permis de découvrir les différentes méthodes utilisées pour
+                analyser et qualifier une liaison de transmission.
               </p>
 
               <p>
-                Nous avons notamment effectué des mesures de longueur de câbles
-                avec un analyseur DTF, observé le déplacement d’une onde dans un
-                câble avec un oscilloscope et réalisé des mesures d’atténuation
-                sur une liaison fibre optique FTTH.
+                Nous avons travaillé sur plusieurs manipulations permettant
+                d'étudier le comportement des signaux dans les câbles coaxiaux
+                ainsi que les caractéristiques des liaisons en fibre optique.
               </p>
 
               <p>
-                Cette SAE m’a permis de mieux comprendre le fonctionnement des
-                supports de transmission et les techniques utilisées pour
-                analyser la qualité d’une liaison réseau.
+                Comme vous pouvez le voir dans
+                <a href="#preuve3.1">la preuve 1</a>, nous avons utilisé
+                différents appareils de mesure afin d'étudier les transmissions
+                sur fibre optique.
+              </p>
+
+              <p>
+                Comme vous pouvez le voir dans
+                <a href="#preuve3.2">la preuve 2</a>, nous avons également
+                réalisé des mesures sur des câbles coaxiaux.
               </p>
             </div>
+
+            <!-- DEMARCHES -->
 
             <div class="project-info">
-              <h3>👨‍💻 Réalisation du projet</h3>
+              <h3>🛠️ Démarches réalisées</h3>
 
               <p>
-                Pour réaliser cette SAE, nous avons commencé par manipuler
-                différents types de câbles comme les câbles coaxiaux RG58 et les
-                câbles Ethernet.
+                Nous avons commencé par manipuler différents supports de
+                transmission tels que les câbles coaxiaux RG58 et les liaisons
+                fibre optique.
               </p>
 
               <p>
-                Nous avons utilisé un analyseur DTF afin de mesurer la longueur
-                des câbles et détecter d’éventuels défauts de transmission.
+                Nous avons utilisé plusieurs appareils de mesure afin d’analyser
+                les caractéristiques physiques des supports de transmission.
               </p>
 
               <p>
-                Ensuite, nous avons utilisé un GBF et un oscilloscope pour
-                observer le temps de propagation d’une impulsion électrique dans
-                les câbles afin de calculer leur longueur.
+                Nous avons notamment réalisé des mesures de longueur de câbles,
+                observé le déplacement d’une onde dans un câble et analysé les
+                performances d’une liaison fibre optique.
               </p>
 
               <p>
-                Une autre partie importante du projet concernait la fibre
-                optique. Nous avons réalisé une liaison FTTH puis effectué des
-                mesures de photométrie afin d’analyser l’atténuation du signal
-                optique.
+                Une partie importante du projet consistait également à utiliser
+                le Spectran afin d'effectuer différentes mesures sur les
+                supports de transmission.
               </p>
 
               <p>
-                Nous avons également étudié les différentes étapes de
-                certification des supports de transmission grâce à une étude
-                documentaire réalisée en parallèle des manipulations.
+                Nous avons ensuite comparé les résultats obtenus entre les
+                liaisons cuivre et les liaisons fibre optique afin de mieux
+                comprendre leurs différences de fonctionnement.
+              </p>
+
+              <p>
+                Comme vous pouvez le voir dans
+                <a href="#preuve3.3">la preuve 3</a>, cette comparaison nous a
+                permis d’identifier les principales différences entre les deux
+                technologies.
               </p>
             </div>
+
+            <!-- DIFFICULTES -->
 
             <div class="project-info">
               <h3>⚠️ Difficultés rencontrées</h3>
 
               <p>
-                L’une des principales difficultés du projet concernait
-                l’utilisation des appareils de mesure comme le DTF et
-                l’oscilloscope, car il fallait bien comprendre l’interprétation
-                des signaux et des résultats obtenus.
+                La principale difficulté rencontrée durant cette SAE concernait
+                l’utilisation du Spectran.
               </p>
 
               <p>
-                Nous avons aussi rencontré des difficultés lors du calcul de la
-                longueur des câbles à partir du temps de propagation des
-                impulsions électriques.
+                Au début du projet, nous ne maîtrisions pas encore cet appareil
+                et nous avions des difficultés à comprendre les paramètres ainsi
+                que les mesures affichées.
               </p>
 
               <p>
-                Concernant la fibre optique, la réalisation de la liaison FTTH
-                demandait beaucoup de précision afin d’obtenir une atténuation
-                correcte et éviter les pertes importantes du signal.
+                L’interprétation des résultats demandait également une bonne
+                compréhension des notions vues en cours et en travaux dirigés.
+              </p>
+
+              <p>
+                Nous avons donc dû prendre le temps de comprendre le
+                fonctionnement de l’appareil avant de pouvoir exploiter
+                correctement les mesures obtenues.
               </p>
             </div>
 
+            <!-- RESOLUTION -->
+
             <div class="project-info">
-              <h3>🔧 Démarche de résolution</h3>
+              <h3>🔧 Démarches de résolution</h3>
 
               <p>
-                Pour résoudre ces difficultés, nous avons procédé étape par
-                étape en vérifiant les branchements et les paramètres des
-                appareils de mesure.
+                Pour résoudre cette difficulté, nous avons commencé par étudier
+                la documentation fournie durant les séances de travaux
+                pratiques.
               </p>
 
               <p>
-                Nous avons utilisé les formules étudiées en TD afin de calculer
-                la NVP et la longueur des câbles à partir des mesures réalisées.
+                Nous avons ensuite réalisé plusieurs essais avec le Spectran
+                afin de comprendre le rôle des différents paramètres de mesure.
               </p>
 
               <p>
-                Pour mieux comprendre les résultats, nous avons comparé les
-                différentes mesures obtenues avec le DTF, le GBF et
-                l’oscilloscope.
+                Nous avons comparé les résultats obtenus sur les différents
+                supports de transmission afin de vérifier leur cohérence.
               </p>
 
               <p>
-                Concernant la fibre optique, nous avons vérifié les connexions
-                et repris plusieurs fois les mesures afin d’obtenir une
-                atténuation plus précise et plus stable.
+                Grâce à ces manipulations répétées et aux explications de
+                l’enseignant, nous avons progressivement appris à utiliser
+                correctement l’appareil et à interpréter les résultats obtenus.
               </p>
             </div>
 
-            <div class="project-info">
-              <h3>📈 Bilan et compétences développées</h3>
-
-              <p>
-                Cette SAE m’a permis de développer mes compétences dans
-                l’analyse des supports de transmission et dans l’utilisation des
-                appareils de mesure réseau.
-              </p>
-
-              <p>
-                J’ai appris à interpréter des signaux électriques, mesurer des
-                longueurs de câbles et analyser l’atténuation d’une liaison
-                fibre optique.
-              </p>
-
-              <p>
-                Cette expérience m’a également permis de mieux comprendre le
-                rôle des supports physiques dans les réseaux informatiques et
-                les méthodes utilisées pour qualifier une liaison réseau.
-              </p>
-            </div>
+            <!-- AC -->
 
             <div class="project-info">
-              <h3>🛠️ Matériels utilisés</h3>
+              <h3>📈 Apprentissages Critiques développés</h3>
 
-              <div class="skills-list">
-                <span class="skill-tag">Oscilloscope</span>
-                <span class="skill-tag">GBF</span>
-                <span class="skill-tag">DTF</span>
-                <span class="skill-tag">FTTH</span>
-                <span class="skill-tag">RG58</span>
+              <div class="ac-list">
+                <ul>
+                  <li>
+                    <strong> AC12.01 — Mesurer et analyser les signaux </strong>
+
+                    <p>
+                      Cette SAE m’a permis d’utiliser différents appareils de
+                      mesure afin d’observer et d’analyser les signaux circulant
+                      dans les supports de transmission.
+                    </p>
+                  </li>
+
+                  <li>
+                    <strong>
+                      AC12.02 — Caractériser des systèmes de transmission
+                      élémentaires et découvrir la modélisation mathématique de
+                      leur fonctionnement
+                    </strong>
+
+                    <p>
+                      J’ai appris à analyser les caractéristiques physiques des
+                      liaisons cuivre et fibre optique ainsi qu’à interpréter
+                      les résultats obtenus lors des différentes mesures.
+                    </p>
+                  </li>
+
+                  <li>
+                    <strong>
+                      AC12.03 — Déployer des supports de transmission
+                    </strong>
+
+                    <p>
+                      Cette SAE m’a permis de manipuler différents supports de
+                      transmission et de comprendre leur rôle dans les réseaux
+                      de télécommunications.
+                    </p>
+                  </li>
+                </ul>
               </div>
             </div>
 
-            <div class="project-gallery">
-              <img src="/images/13.png" alt="Fibre Optique" />
+            <!-- PREUVES -->
 
-              <img src="/images/cable.jpg" alt="Oscilloscope" />
+            <div class="project-info">
+              <h3>📸 Preuves</h3>
+
+              <p>
+                Les captures ci-dessous présentent les manipulations réalisées
+                durant la SAE13 sur les supports de transmission cuivre et fibre
+                optique.
+              </p>
+            </div>
+
+            <div class="project-gallery">
+              <div class="proof-item" id="preuve3.1">
+                <img
+                  src="/images/fibre-spectran.jpg"
+                  alt="Mesure fibre optique"
+                />
+
+                <p class="proof-text">
+                  Preuve 1 — Utilisation du Spectran pour réaliser des mesures
+                  sur une liaison fibre optique.
+                </p>
+              </div>
+
+              <div class="proof-item" id="preuve3.2">
+                <img
+                  src="/images/coaxial-spectran.jpg"
+                  alt="Mesure câble coaxial"
+                />
+
+                <p class="proof-text">
+                  Preuve 2 — Utilisation du Spectran pour effectuer des mesures
+                  sur un câble coaxial.
+                </p>
+              </div>
+
+              <div class="proof-item" id="preuve3.3">
+                <img
+                  src="/images/comparaison-fibre-cuivre.jpg"
+                  alt="Comparaison fibre et coaxial"
+                />
+
+                <p class="proof-text">
+                  Preuve 3 — Comparaison entre les supports de transmission en
+                  fibre optique et en câble coaxial.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -788,324 +861,465 @@
           </div>
 
           <div class="project-content">
+            <!-- PRESENTATION -->
+
             <div class="project-info">
-              <h3>📚 Présentation du projet</h3>
+              <h3>📚 Présentation de la SAE14</h3>
 
               <p>
-                Cette SAE avait pour objectif de créer un site web responsive en
-                utilisant HTML, CSS et JavaScript.
+                La SAE14 avait pour objectif de découvrir les bases du
+                développement web à travers la création d’un site Internet
+                responsive en HTML et CSS.
               </p>
 
               <p>
-                Le projet consistait à développer un site Internet multipages
-                avec une interface moderne, une navigation claire et un design
-                adapté aux différents écrans comme les ordinateurs et les
-                téléphones.
+                Durant ce projet, nous avons appris à structurer des pages web,
+                organiser le contenu d’un site et créer une interface adaptée
+                aux différents types d’écrans.
               </p>
 
               <p>
-                Nous avons également utilisé GitHub Pages afin de publier le
-                site web en ligne.
-              </p>
-
-              <p>
-                Cette SAE m’a permis de découvrir les bases du développement web
-                et l’organisation d’un projet front-end.
+                Cette SAE m’a permis de découvrir concrètement le développement
+                front-end et les principes fondamentaux de la création d’un site
+                web moderne.
               </p>
             </div>
 
+            <!-- DEMARCHES -->
+
             <div class="project-info">
-              <h3>👨‍💻 Réalisation du projet</h3>
+              <h3>👨‍💻 Démarches réalisées</h3>
 
               <p>
-                Pour réaliser ce projet, nous avons commencé par créer la
-                structure du site avec HTML avant d’ajouter le design avec CSS.
+                Pour réaliser ce projet, j’ai commencé par créer la structure du
+                site à l’aide du langage HTML.
               </p>
 
               <p>
-                Nous avons utilisé Flexbox et CSS Grid afin d’organiser les
-                éléments de la page et rendre le site responsive sur différentes
-                tailles d’écran.
+                J’ai ensuite utilisé CSS afin de mettre en forme les différentes
+                pages et améliorer l’aspect visuel du site.
               </p>
 
               <p>
-                Une partie du projet concernait également l’ajout d’interactions
-                en JavaScript afin d’améliorer l’expérience utilisateur et la
-                navigation du site.
+                J’ai utilisé Flexbox et CSS Grid afin d’organiser les éléments
+                de l’interface et rendre le site responsive sur ordinateur,
+                tablette et téléphone.
               </p>
 
               <p>
-                Enfin, nous avons publié le projet sur GitHub Pages afin de
-                rendre le site accessible en ligne.
+                Enfin, j’ai publié le projet sur GitHub Pages afin de rendre le
+                site accessible en ligne.
+              </p>
+
+              <p>
+                Comme vous pouvez le voir dans
+                <a href="#preuve4.1">la preuve 1</a>, le résultat final du
+                projet est un site web responsive développé en HTML et CSS puis
+                publié sur Internet.
               </p>
             </div>
+
+            <!-- DIFFICULTES -->
 
             <div class="project-info">
               <h3>⚠️ Difficultés rencontrées</h3>
 
               <p>
-                L’une des principales difficultés du projet concernait le CSS et
-                l’organisation de la mise en page.
+                La principale difficulté concernait la mise en page avec CSS.
               </p>
 
               <p>
-                Au début, j’avais du mal à comprendre le fonctionnement de
-                Flexbox et CSS Grid, notamment pour aligner correctement les
-                éléments et adapter le site aux différentes tailles d’écran.
+                Au début du projet, j’avais du mal à comprendre le
+                fonctionnement de Flexbox et CSS Grid, notamment pour aligner
+                correctement les éléments sur la page.
               </p>
 
               <p>
-                J’ai également rencontré des difficultés avec le responsive
-                design, car certaines parties du site ne s’affichaient pas
-                correctement sur téléphone ou tablette.
+                J’ai également rencontré des difficultés pour adapter le site
+                aux différentes tailles d’écran et obtenir un affichage correct
+                sur téléphone.
               </p>
 
               <p>
-                La gestion des espacements, des tailles et de la structure des
-                pages demandait beaucoup de tests et de modifications.
+                Comme vous pouvez le voir dans
+                <a href="#preuve4.2">la preuve 2</a>, une partie importante du
+                travail concernait l’organisation du code HTML et CSS ainsi que
+                la compréhension de Flexbox et CSS Grid.
               </p>
             </div>
 
+            <!-- RESOLUTION -->
+
             <div class="project-info">
-              <h3>🔧 Démarche de résolution</h3>
+              <h3>🔧 Démarches de résolution</h3>
 
               <p>
-                Pour résoudre ces difficultés, j’ai réalisé plusieurs tests en
+                Pour résoudre ces difficultés, j’ai réalisé de nombreux tests en
                 modifiant progressivement le CSS afin de mieux comprendre le
-                comportement des éléments sur la page.
+                comportement des éléments.
               </p>
 
               <p>
-                J’ai utilisé les outils de développement du navigateur pour
-                analyser les problèmes d’affichage et corriger les erreurs de
-                mise en page.
+                J’ai utilisé les outils de développement du navigateur afin
+                d’identifier les problèmes d’affichage et corriger les erreurs
+                de mise en page.
               </p>
 
               <p>
-                J’ai également consulté la documentation HTML/CSS ainsi que des
-                exemples de Flexbox et CSS Grid afin de mieux comprendre leur
-                fonctionnement.
+                J’ai également consulté la documentation HTML et CSS afin de
+                mieux comprendre l’utilisation de Flexbox et CSS Grid.
               </p>
 
               <p>
-                Grâce à cette méthode, j’ai pu améliorer progressivement le
-                design du site et rendre l’interface plus responsive et plus
-                propre.
+                Grâce à ces recherches et à de nombreux essais, j’ai pu rendre
+                le site plus propre, plus moderne et entièrement responsive.
               </p>
             </div>
 
-            <div class="project-info">
-              <h3>📈 Bilan et compétences développées</h3>
-
-              <p>
-                Cette SAE m’a permis de développer mes compétences en
-                développement web front-end et en création d’interfaces web
-                responsives.
-              </p>
-
-              <p>
-                J’ai appris à structurer un site avec HTML, créer une mise en
-                page avec CSS et utiliser JavaScript pour ajouter des
-                interactions.
-              </p>
-
-              <p>
-                Cette expérience m’a également permis de mieux comprendre
-                l’importance de l’ergonomie, du responsive design et de
-                l’organisation du code dans un projet web.
-              </p>
-            </div>
+            <!-- AC -->
 
             <div class="project-info">
-              <h3>🛠️ Technologies utilisées</h3>
+              <h3>📈 Apprentissages Critiques développés</h3>
 
-              <div class="skills-list">
-                <span class="skill-tag">HTML5</span>
-                <span class="skill-tag">CSS3</span>
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">GitHub</span>
-                <span class="skill-tag">Responsive Design</span>
+              <div class="ac-list">
+                <ul>
+                  <li>
+                    <strong>
+                      AC13.01 — Utiliser un système informatique et ses outils
+                    </strong>
+
+                    <p>
+                      Cette SAE m’a permis d’utiliser différents outils de
+                      développement web comme Visual Studio Code, GitHub et les
+                      outils de développement intégrés aux navigateurs.
+                    </p>
+                  </li>
+
+                  <li>
+                    <strong>
+                      AC13.04 — Connaître l’architecture et les technologies
+                      d’un site Web
+                    </strong>
+
+                    <p>
+                      J’ai appris à structurer un site web avec HTML, à créer
+                      une mise en page avec CSS et à comprendre l’organisation
+                      des différentes pages d’un site Internet.
+                    </p>
+                  </li>
+                </ul>
               </div>
             </div>
 
-            <div class="project-gallery">
-              <img src="/images/14.jpg" alt="Projet Web" />
+            <!-- LIEN -->
 
-              <img
-                src="/images/html-css-collage-concept.jpg"
-                alt="Responsive Design"
-              />
+            <div class="project-info">
+              <h3>🌐 Accès au site réalisé</h3>
+
+              <p>
+                Dans le cadre de cette SAE, j’ai développé un site web
+                responsive en HTML et CSS.
+              </p>
+
+              <p>
+                Vous pouvez consulter directement le site réalisé en cliquant
+                sur le lien ci-dessous :
+              </p>
+
+              <p>
+                <a
+                  href="https://amir76-cell.github.io/Projet-Web-2025/"
+                  target="_blank"
+                  class="project-link"
+                >
+                  🔗 Accéder au site web
+                </a>
+              </p>
+            </div>
+
+            <!-- PREUVES -->
+
+            <div class="project-info">
+              <h3>📸 Preuves</h3>
+
+              <p>
+                Les captures ci-dessous présentent le résultat final du site web
+                ainsi qu’un exemple du code HTML et CSS réalisé durant le
+                projet.
+              </p>
+            </div>
+
+            <div class="project-gallery">
+              <!-- PREUVE 1 -->
+
+              <div class="proof-item" id="preuve4.1">
+                <img src="/images/site-web.png" alt="Site Web Responsive" />
+
+                <p class="proof-text">
+                  Preuve 1 — Résultat final du site web responsive développé et
+                  publié en ligne.
+                </p>
+              </div>
+
+              <!-- PREUVE 2 -->
+
+              <div class="proof-item" id="preuve4.2">
+                <img src="/images/code-html-css.png" alt="Code HTML CSS" />
+
+                <p class="proof-text">
+                  Preuve 2 — Exemple du code HTML et CSS utilisé pour construire
+                  le site web et mettre en place la mise en page responsive.
+                </p>
+              </div>
             </div>
           </div>
         </div>
 
         <!-- SAE 15 -->
 
-        <div class="project-detail" id="sae15">
-          <div class="project-header">
-            <h2>
-              <i class="fab fa-python"></i>
-              SAÉ 1.5 — Python & OpenStreetMap
-            </h2>
+        <div class="project-info">
+          <h3>👨‍💻 Réalisation du projet</h3>
 
-            <span class="status-badge">Projet Réalisé</span>
+          <p>
+            Pour réaliser cette SAE, nous avons commencé par apprendre à envoyer
+            des requêtes vers les APIs OpenStreetMap afin de récupérer des
+            données géographiques au format JSON.
+          </p>
+
+          <p>
+            Nous avons ensuite développé plusieurs scripts Python permettant
+            d’analyser les données récupérées et de générer automatiquement des
+            fichiers Markdown puis HTML.
+          </p>
+
+          <p>
+            Une partie importante du projet consistait également à calculer des
+            statistiques sur les données récupérées, comme le nombre de
+            restaurants, les types de commerces ou certaines informations
+            présentes dans OpenStreetMap.
+          </p>
+
+          <p>
+            Comme vous pouvez le voir dans
+            <a href="#preuve5.1">la preuve 1</a>, nous avons développé plusieurs
+            programmes Python permettant d'automatiser le traitement des données
+            récupérées.
+          </p>
+
+          <p>
+            Comme vous pouvez le voir dans
+            <a href="#preuve5.2">la preuve 2</a>, le programme générait
+            automatiquement des pages HTML à partir des données analysées.
+          </p>
+
+          <p>
+            Comme vous pouvez le voir dans
+            <a href="#preuve5.3">la preuve 3</a>, nous avons également produit
+            des statistiques et des fichiers Markdown à partir des données
+            OpenStreetMap.
+          </p>
+        </div>
+
+        <div class="project-info">
+          <h3>⚠️ Difficultés rencontrées</h3>
+
+          <p>
+            La principale difficulté rencontrée durant cette SAE concernait la
+            programmation en Python.
+          </p>
+
+          <p>
+            Plusieurs fonctions utilisées dans le projet étaient nouvelles pour
+            moi et demandaient une bonne compréhension de leur fonctionnement.
+          </p>
+
+          <p>
+            J’ai également rencontré des difficultés pour manipuler les données
+            JSON récupérées depuis les APIs OpenStreetMap et organiser
+            correctement les informations dans le programme.
+          </p>
+
+          <p>
+            La génération automatique des fichiers HTML et Markdown demandait
+            également beaucoup de rigueur afin d’obtenir un résultat correct.
+          </p>
+
+          <p>
+            Comme il s’agissait de l’un de mes premiers projets importants en
+            Python, certaines parties du code demandaient plusieurs essais avant
+            d’obtenir le résultat attendu.
+          </p>
+        </div>
+
+        <div class="project-info">
+          <h3>🔧 Démarches de résolution</h3>
+
+          <p>
+            Pour résoudre ces difficultés, j’ai réalisé de nombreux essais afin
+            de comprendre progressivement le fonctionnement des différentes
+            fonctions Python utilisées dans le projet.
+          </p>
+
+          <p>
+            J’ai également consulté la documentation officielle ainsi que des
+            ressources disponibles sur Internet afin de mieux comprendre les
+            erreurs rencontrées.
+          </p>
+
+          <p>
+            La pratique régulière et les nombreux tests effectués m’ont permis
+            d’améliorer progressivement ma maîtrise du langage Python.
+          </p>
+
+          <p>
+            Grâce à cette démarche, j’ai réussi à terminer le projet tout en
+            développant une meilleure méthode de résolution des problèmes.
+          </p>
+        </div>
+
+        <div class="project-info">
+          <h3>📈 Apprentissages Critiques développés</h3>
+
+          <div class="ac-list">
+            <ul>
+              <li>
+                <strong
+                  >AC13.01 — Utiliser un système informatique et ses
+                  outils</strong
+                >
+
+                <p>
+                  Cette SAE m’a permis d’utiliser Python, Visual Studio Code et
+                  différents outils de développement pour réaliser un projet
+                  complet de traitement de données.
+                </p>
+              </li>
+
+              <li>
+                <strong
+                  >AC13.02 — Lire, exécuter, corriger et modifier un
+                  programme</strong
+                >
+
+                <p>
+                  J’ai appris à analyser, tester et corriger du code Python afin
+                  de résoudre les erreurs rencontrées durant le projet.
+                </p>
+              </li>
+
+              <li>
+                <strong
+                  >AC13.03 — Traduire un algorithme dans un langage
+                  donné</strong
+                >
+
+                <p>
+                  Cette SAE m’a permis de transformer différentes étapes de
+                  traitement de données en programmes Python fonctionnels.
+                </p>
+              </li>
+
+              <li>
+                <strong
+                  >AC13.04 — Connaître l’architecture et les technologies d’un
+                  site Web</strong
+                >
+
+                <p>
+                  J’ai découvert la génération automatique de pages HTML et la
+                  structure des documents web.
+                </p>
+              </li>
+
+              <li>
+                <strong
+                  >AC13.05 — Choisir les mécanismes de gestion de données
+                  adaptés au développement de l’outil</strong
+                >
+
+                <p>
+                  J’ai manipulé des données JSON provenant des APIs
+                  OpenStreetMap afin de produire différentes statistiques et
+                  résultats.
+                </p>
+              </li>
+
+              <li>
+                <strong
+                  >AC13.06 — S’intégrer dans un environnement propice au
+                  développement et au travail collaboratif</strong
+                >
+
+                <p>
+                  Cette SAE m’a permis de collaborer avec les autres membres du
+                  groupe et de partager les différentes parties du projet.
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-info">
+          <h3>🌐 Accès au projet GitHub</h3>
+
+          <p>
+            Dans le cadre de cette SAE, nous avons développé plusieurs scripts
+            Python permettant d'exploiter les données OpenStreetMap et de
+            générer automatiquement des fichiers Markdown et HTML.
+          </p>
+
+          <p>
+            Vous pouvez consulter le projet ainsi que le code source complet en
+            cliquant sur le lien ci-dessous :
+          </p>
+
+          <p>
+            <a
+              href="https://github.com/amir76-cell/Projet-Python-2025"
+              target="_blank"
+              class="project-link"
+            >
+              🔗 Accéder au projet GitHub
+            </a>
+          </p>
+        </div>
+
+        <div class="project-info">
+          <h3>📸 Preuves</h3>
+
+          <p>
+            Les captures ci-dessous présentent différentes étapes du projet
+            ainsi que les résultats obtenus grâce aux programmes développés en
+            Python.
+          </p>
+        </div>
+
+        <div class="project-gallery">
+          <div class="proof-item" id="preuve5.1">
+            <img src="/images/python-code.png" alt="Code Python" />
+
+            <p class="proof-text">
+              Preuve 1 — Exemple d’un programme Python développé pour récupérer
+              et traiter les données OpenStreetMap.
+            </p>
           </div>
 
-          <div class="project-content">
-            <div class="project-info">
-              <h3>📚 Présentation de la SAE15</h3>
+          <div class="proof-item" id="preuve5.2">
+            <img src="/images/html-resultat.png" alt="Résultat HTML" />
 
-              <p>
-                La SAE15, intitulée
-                <strong>« Traiter des données »</strong>, avait pour objectif de
-                développer des outils en Python permettant d’exploiter les
-                données du projet OpenStreetMap à l’aide de différentes APIs.
-              </p>
+            <p class="proof-text">
+              Preuve 2 — Exemple de page HTML générée automatiquement à partir
+              des données récupérées.
+            </p>
+          </div>
 
-              <p>
-                Le projet consistait à récupérer des données géographiques au
-                format JSON puis à générer automatiquement des fichiers Markdown
-                et HTML contenant des informations et des statistiques sur
-                différents lieux.
-              </p>
+          <div class="proof-item" id="preuve5.3">
+            <img src="/images/statistiques-osm.png" alt="Statistiques OSM" />
 
-              <p>
-                Nous avons notamment travaillé avec les APIs OpenStreetMap et
-                Overpass afin de récupérer des informations sur des points
-                d’intérêt comme des restaurants, magasins ou autres équipements
-                présents dans une zone géographique donnée.
-              </p>
-
-              <p>
-                Cette SAE m’a permis de découvrir le traitement de données en
-                Python, l’utilisation des APIs web et la génération automatique
-                de fichiers HTML.
-              </p>
-            </div>
-
-            <div class="project-info">
-              <h3>👨‍💻 Réalisation du projet</h3>
-
-              <p>
-                Pour réaliser cette SAE, nous avons commencé par apprendre à
-                envoyer des requêtes vers les APIs OpenStreetMap afin de
-                récupérer des données géographiques au format JSON.
-              </p>
-
-              <p>
-                Nous avons ensuite développé plusieurs scripts Python permettant
-                d’analyser les données récupérées et de générer automatiquement
-                des fichiers Markdown puis HTML.
-              </p>
-
-              <p>
-                Une partie importante du projet consistait également à calculer
-                des statistiques sur les données récupérées, comme le nombre de
-                restaurants, les types de commerces ou certaines informations
-                présentes dans OpenStreetMap.
-              </p>
-
-              <p>
-                Nous avons aussi travaillé sur la conversion automatique des
-                fichiers Markdown vers HTML afin d’obtenir une présentation plus
-                agréable et plus lisible des résultats.
-              </p>
-            </div>
-
-            <div class="project-info">
-              <h3>⚠️ Difficultés rencontrées</h3>
-
-              <p>
-                L’une des principales difficultés du projet concernait la
-                compréhension du format JSON et l’organisation des données
-                récupérées depuis les APIs.
-              </p>
-
-              <p>
-                J’ai également rencontré des difficultés lors de l’utilisation
-                des requêtes API car certaines données n’étaient pas toujours
-                organisées de la même manière.
-              </p>
-
-              <p>
-                La génération automatique des fichiers HTML demandait aussi
-                beaucoup d’attention afin d’obtenir une structure correcte et un
-                affichage lisible.
-              </p>
-
-              <p>
-                Une autre difficulté concernait le traitement des statistiques
-                et l’analyse des données récupérées dans les différentes zones
-                géographiques.
-              </p>
-            </div>
-
-            <div class="project-info">
-              <h3>🔧 Démarche de résolution</h3>
-
-              <p>
-                Pour résoudre ces difficultés, nous avons testé progressivement
-                les requêtes API afin de mieux comprendre la structure des
-                données retournées par OpenStreetMap.
-              </p>
-
-              <p>
-                Nous avons utilisé plusieurs affichages et vérifications dans
-                Python afin d’analyser le contenu des dictionnaires JSON et
-                identifier les informations importantes.
-              </p>
-
-              <p>
-                Concernant les fichiers HTML, nous avons corrigé progressivement
-                la structure des pages afin d’améliorer l’affichage et la
-                lisibilité des résultats.
-              </p>
-
-              <p>
-                Nous avons également réalisé plusieurs tests sur les
-                statistiques afin de vérifier la cohérence des données
-                calculées.
-              </p>
-            </div>
-
-            <div class="project-info">
-              <h3>📈 Bilan et compétences développées</h3>
-
-              <p>
-                Cette SAE m’a permis de développer mes compétences en
-                programmation Python et en traitement de données.
-              </p>
-
-              <p>
-                J’ai appris à utiliser des APIs web, manipuler des données JSON,
-                automatiser la génération de fichiers HTML et analyser des
-                données géographiques.
-              </p>
-
-              <p>
-                Cette expérience m’a également permis de mieux comprendre le
-                fonctionnement des APIs et l’importance de l’organisation des
-                données dans un projet informatique.
-              </p>
-            </div>
-
-            <div class="project-info">
-              <h3>🛠️ Technologies utilisées</h3>
-
-              <div class="skills-list">
-                <span class="skill-tag">Python</span>
-                <span class="skill-tag">JSON</span>
-                <span class="skill-tag">API REST</span>
-                <span class="skill-tag">Markdown</span>
-                <span class="skill-tag">OpenStreetMap</span>
-              </div>
-            </div>
-
-            <div class="project-gallery">
-              <img src="/images/15.gif" alt="Projet Python" />
-
-              <img src="/images/python .gif" alt="OpenStreetMap" />
-            </div>
+            <p class="proof-text">
+              Preuve 3 — Exemple de statistiques et de résultats produits à
+              partir des données OpenStreetMap.
+            </p>
           </div>
         </div>
       </div>
